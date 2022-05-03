@@ -1,14 +1,17 @@
 console.log("TELEGRAM WEB APP:", window.Telegram.WebApp);
-document.body.style.background = window.Telegram.WebApp.themeParams.bg_color;
 
-document.body.classList.add("light-telegram-theme");
+function applyTelegramTheme() {
+  const { themeParams } = window.Telegram.WebApp;
 
-setTimeout(() => {
-  document.body.classList.add("light-telegram-theme");
-}, 15000);
+  document.body.style.background = themeParams.bg_color;
+  document.documentElement.style.setProperty(
+    "--tg-theme-text-color",
+    themeParams.text_color
+  );
+}
 
 window.Telegram.WebApp.onEvent("themeChanged", function () {
-  document.body.style.background = window.Telegram.WebApp.themeParams.bg_color;
+  applyTelegramTheme();
 });
 
 window.Ecwid.OnOrderPlaced.add(function (order) {
