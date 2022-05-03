@@ -1,3 +1,11 @@
+body {
+    background-color: var(--tg-theme-bg-color) !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
+    background-color: var(--tg-theme-bg-color) !important;
+}
+
 /* --------------------------------------------- */
 /* Change the color of all Large buttons at once */
 /* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-all-large-buttons-at-once */
