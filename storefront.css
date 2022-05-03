@@ -1,0 +1,45 @@
+.body {
+    margin-top: 200px;
+    background-color: red;
+}
+
+.dark-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
+    button: 'blue' !important;
+}
+
+.light-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
+    button: 'red' !important;
+}
+
+.dark-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
+    color: 'red' !important;
+}
+
+.light-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
+    color: 'red' !important;
+}
+
+.light-telegram-theme div,
+.light-telegram-theme span,
+.light-telegram-theme a,
+.light-telegram-theme p {
+    color: red !important;
+}
+
+.dark-telegram-theme .ecwid div,
+.ecwid span,
+.ecwid a,
+.ecwid p {
+    color: red !important;
+}
+
+.product-details__product-description {
+    background-color: red !important;
+}
+
+.ecwid div,
+.ecwid span,
+.ecwid a,
+.ecwid p {
+    color: red !important;
+}
