@@ -11,7 +11,7 @@ function applyTelegramTheme() {
 }
 
 window.Telegram.WebApp.onEvent("themeChanged", function () {
-  applyTelegramTheme();
+  //   applyTelegramTheme();
 });
 
 window.Ecwid.OnOrderPlaced.add(function (order) {
