@@ -6,6 +6,8 @@ function applyTelegramTheme() {
   document.body.style.background = themeParams.bg_color;
 }
 
+applyTelegramTheme();
+
 window.Telegram.WebApp.onEvent("themeChanged", function () {
   applyTelegramTheme();
 });
