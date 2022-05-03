@@ -1,45 +1,107 @@
-.body {
-    margin-top: 200px;
-    background-color: red;
+/* --------------------------------------------- */
+/* Change the color of all Large buttons at once */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-all-large-buttons-at-once */
+/* --------------------------------------------- */
+
+/*Button color*/
+.ec-size .ec-store .form-control--primary .form-control__button {
+    background-color: var(--tg-theme-button-color);
 }
 
-.dark-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
-    button: 'blue' !important;
+/*Button color on hover*/
+.ec-size .ec-store .form-control--primary .form-control__button:hover {
+    background: var(--tg-theme-button-color);
 }
 
-.light-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
-    button: 'red' !important;
+/*Text color*/
+.ec-size .ec-store .form-control--primary .form-control__button {
+    color: var(--tg-theme-button-text-color);
 }
 
-.dark-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
-    color: 'red' !important;
+/*Text color on hover*/
+.ec-size .ec-store .form-control--primary .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
 }
 
-.light-telegram-theme .ec-size .ec-store .form-control--primary .form-control__button {
-    color: 'red' !important;
+/* --------------------------------------------- */
+/* Change the color of Add to bag button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#-change-the-color-of-add-to-bag-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button {
+    background: var(--tg-theme-button-color);
 }
 
-.light-telegram-theme div,
-.light-telegram-theme span,
-.light-telegram-theme a,
-.light-telegram-theme p {
-    color: red !important;
+/*Button color on hover*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button:hover {
+    background: var(--tg-theme-button-color);
 }
 
-.dark-telegram-theme .ecwid div,
-.ecwid span,
-.ecwid a,
-.ecwid p {
-    color: red !important;
+/*Text color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button {
+    color: var(--tg-theme-button-text-color);
 }
 
-.product-details__product-description {
-    background-color: red !important;
+/*Text color on hover*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
 }
+
+/* --------------------------------------------- */
+/* Change the color of Buy Now button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-buy-now-button */
+/* --------------------------------------------- */
+
+.ec-size .ec-store .grid-product__buy-now .form-control__button {
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+}
+
+.ecsp .ecwid-btn--primary,
+.ecwid .ecwid-btn--primary {
+    background-color: var(--tg-theme-button-color);
+}
+
+.ecsp .ecwid-btn--primary:hover,
+.ecwid .ecwid-btn--primary:hover {
+    background-color: var(--tg-theme-button-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Checkout button */
+/* https: //support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-checkout-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+.ec-size .ec-store .form-control--primary.ec-cart__button--checkout .form-control__button {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+.ec-size .ec-store .form-control--primary.ec-cart__button--checkout .form-control__button:hover {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+.ec-size .ec-store .form-control--primary.ec-cart__button--checkout .form-control__button {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+.ec-size .ec-store .form-control--primary.ec-cart__button--checkout .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+
+/* --------------------------------------------- */
+/* Change the font color */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-font-color */
+/* --------------------------------------------- */
 
 .ecwid div,
 .ecwid span,
 .ecwid a,
 .ecwid p {
-    color: red !important;
+    color: var(--tg-theme-text-color) !important;
 }
