@@ -11,7 +11,3 @@ applyTelegramTheme();
 window.Telegram.WebApp.onEvent("themeChanged", function () {
   applyTelegramTheme();
 });
-
-window.Ecwid.OnOrderPlaced.add(function (order) {
-  console.log(order.orderNumber);
-});
