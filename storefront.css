@@ -101,6 +101,180 @@ html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
     color: var(--tg-theme-button-text-color);
 }
 
+/* --------------------------------------------- */
+/* Change the color of Continue button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-continue-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+button.ecwid-btn--primary.ecwid-btn--continue {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+button.ecwid-btn--primary.ecwid-btn--continue:hover {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+button.ecwid-btn--primary.ecwid-btn--continue {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+button.ecwid-btn--primary.ecwid-btn--continue:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Place Order button */
+/* https: //support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-place-order-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+button.ecwid-btn--primary.ecwid-btn--placeOrder {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+button.ecwid-btn--primary.ecwid-btn--placeOrder:hover {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+button.ecwid-btn--primary.ecwid-btn--placeOrder {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+button.ecwid-btn--primary.ecwid-btn--placeOrder:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of all Smaller buttons at once */
+/* https: //support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-all-smaller-buttons-at-once */
+/* --------------------------------------------- */
+
+/*Button color*/
+.ec-size .ec-store .form-control--secondary .form-control__button {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+.ec-size .ec-store .form-control--secondary .form-control__button:hover {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+.ec-size .ec-store .form-control--secondary .form-control__button {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+.ec-size .ec-store .form-control--secondary .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Add More button */
+/* https: //support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-add-more-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control--secondary .form-control__button {
+    background-color: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control--secondary .form-control__button:hover {
+    background: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control--secondary .form-control__button {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control--secondary .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Go to Checkout button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-font-color */
+/* --------------------------------------------- */
+
+/*Button color*/
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button {
+    background: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button:hover {
+    background: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+.form-control--primary.form-control--flexible.details-product-purchase__checkout .form-control__button:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Continue Shopping on cart page button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-continue-shopping-on-cart-page-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--continueShopping {
+    background: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--continueShopping:hover {
+    background: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--continueShopping {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--continueShopping:hover {
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the color of Clear Bag button */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-clear-bag-button */
+/* --------------------------------------------- */
+
+/*Button color*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--clearBag {
+    background: var(--tg-theme-button-color);
+}
+
+/*Button color on hover*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--clearBag:hover {
+    background: var(--tg-theme-button-color);
+}
+
+/*Text color*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--clearBag {
+    color: var(--tg-theme-button-text-color);
+}
+
+/*Text color on hover*/
+button.ecwid-btn.ecwid-btn--secondary.ecwid-btn--clearBag:hover {
+    color: var(--tg-theme-button-text-color);
+}
 
 /* --------------------------------------------- */
 /* Change the font color */
@@ -112,4 +286,115 @@ html#ecwid_html body#ecwid_body div.ecwid-productBrowser {
 .ecwid a,
 .ecwid p {
     color: var(--tg-theme-text-color) !important;
+}
+
+/* --------------------------------------------- */
+/* Change the price font color and size in the product grid */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-font-color */
+/* --------------------------------------------- */
+
+/*Product titles on catalog page*/
+/*Change font color*/
+.ec-size .ec-store .grid-product__title-inner {
+    color: var(--tg-theme-text-color);
+}
+
+/*Product price on catalog page*/
+/*Change font color*/
+.ec-size .ec-store .grid-product__price-amount {
+    color: var(--tg-theme-text-color);
+}
+
+/* --------------------------------------------- */
+/* Change the price color on a specific category page */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-font-color */
+/* --------------------------------------------- */
+
+.ec-store__category-page--4002 .grid-product .grid-product__price-amount {
+    color: var(--tg-theme-text-color);
+}
+
+/* --------------------------------------------- */
+/* Product details -> Change font color and size */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-font-color-and-size */
+/* --------------------------------------------- */
+
+/*Product titles in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details .product-details__product-title {
+    color: var(--tg-theme-text-color);
+}
+
+/*Product price in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-price-item {
+    color: var(--tg-theme-text-color);
+}
+
+/*Product SKU in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details__product-sku {
+    color: var(--tg-theme-text-color);
+}
+
+/*Quantity label in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .details-product-purchase__place {
+    color: var(--tg-theme-text-color);
+}
+
+/*Price per unit fields in the product page*/
+.ec-size .ec-store .product-details__price-per-unit-block {
+    color: var(--tg-theme-text-color);
+}
+
+/* --------------------------------------------- */
+/* Product details -> Change the color of “On sale” tag */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-color-of-%E2%80%9Con-sale%E2%80%9D-tag */
+/* --------------------------------------------- */
+
+/* change on sale label color */
+
+.ec-size .ec-store .label--notice {
+    background-color: var(--tg-theme-button-color);
+}
+
+.ec-size .ec-store .label--notice::after,
+.ec-size .ec-store .label--notice::before {
+    border-color: var(--tg-theme-button-color);
+    border-right-color: transparent;
+}
+
+/* --------------------------------------------- */
+/* Search box -> Change search widget design */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-search-widget-design */
+/* --------------------------------------------- */
+
+/*  Input box styles */
+input.ecwid-search-widget__input[type="text"] {
+    border: solid 1px var(--tg-theme-button-color);
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
+/* --------------------------------------------- */
+/* Search box -> Change the Search button styles */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-the-search-button-styles */
+/* --------------------------------------------- */
+
+/* "Search" button styles */
+button.ecwid-search-widget__btn {
+    border: solid 1px var(--tg-theme-button-color);
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+}
+
+/* --------------------------------------------- */
+/* Search box -> Change Search box on Instant Site (regular version) */
+/* https://support.ecwid.com/hc/en-us/articles/360000034499-Ecwid-CSS-Cookbook#change-search-box-on-instant-site--regular-version- */
+/* --------------------------------------------- */
+
+.ec-minicart.ec-minicart--pill .ec-minicart.ec-minicart--rect {
+    border: solid 1px var(--tg-theme-button-color);
+}
+
+.search-panel .text-field {
+    background: var(--tg-theme-button-color);
+    border: 2px solid var(--tg-theme-button-color);
 }
